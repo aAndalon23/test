@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 MyApplicationApp()
+                //thodd the test is real
             }
         }
     }
@@ -72,8 +73,8 @@ enum class AppDestinations(
     val label: String,
     val icon: ImageVector,
 ) {
-    HOME("Home", Icons.Default.Home),
-    FAVORITES("Favorites", Icons.Default.Favorite),
+    HOME("This is not home", Icons.Default.Home),
+    FAVORITES("These are my favorites", Icons.Default.Favorite),
     PROFILE("Profile", Icons.Default.AccountBox),
 }
 
